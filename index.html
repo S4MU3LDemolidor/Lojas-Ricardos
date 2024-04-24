@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Ricardo's</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="imgs/Screenshot 2024-04-11 124918.png">
+</head>
+<body>
+
+    <div class="top">
+        <div class="navbar">
+            <header class="divheader">
+                <ul class="lista">
+                    <img src="imgs/Screenshot_2024-04-11_124918-removebg-preview.png" alt="logo Loja" class="logo-loja">
+                    <li class="li-1" onclick="scrollToElement('inicio')">Início</li>
+                    <li class="li-1" onclick="scrollToElement('sobre')">Sobre</li>
+                    <li class="li-1" onclick="scrollToElement('localizacao')">Localização</li>
+                    <li class="li-1" onclick="scrollToElement('contato')">Contato</li>
+                </ul>
+            </header>
+        </div>
+        <div class="fotoDaLoja">
+            <div class="navText">
+                <h1 class="navTextStyles" id="inicio">Descubra um novo padrão de compras em Porto Nacional. <br> Lojas Ricardo's.</h1>
+                <h1 class="navTextStyles2">Uma loja completa de Estofados e Confecções, com qualidade pelo menor preço, feita pra você.</h1>
+                <button class="navButtonStyle" onclick="scrollToElement('sobre')">Venha nos conhecer</button>
+            </div>
+            <div class="divFoto">
+                <img src="imgs/fotolojaa.png" alt="foto da loja" class="fotoDaLojaStyles">
+            </div>
+        </div>
+    </div>
+    <div class="secondText hidden">
+        <h1 class="secondTextStyles" id="sobre">Descubra nossas <span class="vantagens">vantagens</span> exclusivas!</h1>
+    </div>
+    <div class="secondTop hidden">
+        <ul class="lista2">
+            <li class="li-2">
+                <img src="imgs/book.png" alt="icon" class="imgIcon">
+                <div class="text-content">
+                    <h1>Promoções Exclusivas</h1>
+                    <p>Aproveite ofertas especiais e descontos frequentes para economizar ainda mais</p>
+                </div>
+            </li>
+            <li class="li-2">
+                <img src="imgs/Component 1.png" alt="icon" class="imgIcon">
+                <div class="text-content">
+                    <h1>Suporte Preços Acessíveis</h1>
+                    <p>Desfrute de preços competitivos que se encaixam no seu orçamento.</p>
+                </div>
+            </li>
+            <li class="li-2">
+                <img src="imgs/Vector.png" alt="icon" class="imgIcon">
+                <div class="text-content">
+                    <h1>Qualidade Garantida</h1>
+                    <p>Produtos cuidadosamente selecionados para garantir qualidade e durabilidade.</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="localizacao hidden">
+        <h1 class="secondTextStyles" id="localizacao">Encontre o melhor <span class="vantagens">caminho</span> para nossa Loja!</h1>
+    </div>
+    <div class="localizacaoIMG hidden">
+        <img src="imgs/image 4.png" alt="foto map loja" class="loc">
+    </div>
+    <div class="buttonLocDiv hidden">
+        <a href="https://www.google.com/maps/dir//R.+Frederico+Lemos,+884+-+S+Central,+Porto+Nacional+-+TO,+77500-000/@-10.705532,-48.4936067,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x933b739bd8cbd049:0x5acf61705d4cb532!2m2!1d-48.4112045!2d-10.7055338?entry=ttu" target="_blank">
+            <button class="buttonLoc">Clique Aqui!</button>
+        </a>
+    </div>
+    <div class="container hidden">
+        <div class="imageInstagram">
+            <div class="textImage">
+                <h1 class="thirdTextStyles">Acompanhe as <span class="vantagens">novidades</span> nas nossas redes sociais!</h1>
+            </div>
+        </div>
+        <div class="fotoInsta">
+            <img src="imgs/image1 2 1.png" alt="foto do instagram" class="fotoInstaComputador">
+        </div>
+        <div class="instaText">
+            <h1 class="smallH1">Siga nossas redes Sociais!</h1>
+        </div>
+        <div class="socialIcons">
+            <ul class="lista3">
+                <li class="li-3">
+                    <a href="https://www.instagram.com/lojasricardosporto/" target="_blank">
+                        <img src="imgs/instagram.png" alt="instagram icon">
+                    </a>
+                </li>
+                <li class="li-3">
+                    <a href="https://www.tiktok.com/@lojas.ricardos" target="_blank">
+                        <img src="imgs/tiktok (2).png" alt="tiktok icon" class="tiktokIcon">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="videoLoja hidden">
+        <div class="textImage">
+            <h1 class="thirdTextStyles">Explore as últimas <span class="vantagens">tendências</span> de nossa Loja com este vídeo exclusivo!</h1>
+        </div>
+        <div class="video">
+            <video height="480" controls>
+                <source src="vids/videoLoja.mp4">
+            </video>
+        </div>
+    </div>
+    <div class="conteinerZap hidden">
+        <div class="textZap">
+            <h1 class="zapText" id="contato">Entre em contato conosco</h1>
+            <h1 class="zapText2">Queremos ouvir de você! Se você tiver alguma dúvida, sugestão ou precisar de assistência, não hesite em entrar em contato com nossa equipe dedicada. Estamos aqui para ajudar a tornar sua experiência de compra na Ricardo's excepcional em todos os aspectos.</h1>
+            <a href="http://wa.me/6333631777" class="noSubline" target="_blank">
+                <button class="zapButton">
+                    <img src="imgs/image 2.png" alt="zap icon">
+                    Conversar agora!
+                </button>
+            </a>
+            <h1 class="horario">Horário de Funcionamento</h1>
+            <h1 class="zapText3">08h00-19h00</h1>
+        </div>
+    </div>
+    <footer class="footerAll hidden">
+        <div class="listasAll">
+            <div class="listaFooter1">
+                <ul class="noDot">
+                    <li class="boldText">Home</li>
+                    <a href="#inicio"><li>Início</li></a>
+                    <a href="#sobre"><li>Sobre</li></a>
+                    <a href="#localizacao"><li>Localização</li></a>
+                </ul>
+                <ul class="noDot">
+                    <li class="boldText">Sobre nós</li>
+                    <a href="sobre"><li>Quem somos?</li></a>
+                    <a href="http://wa.me/6333631777"><li>Trabalho conosco</li></a>
+                </ul>
+                <ul class="noDot">
+                    <li class="boldText">Contatos</li>
+                    <a href="http://wa.me/6333631777" target="_blank"><li>Atendimento</li></a>
+                    <a href="http://wa.me/63984566185" target="_blank"><li>Financeiro</li></a>
+                </ul>
+            </div>
+            <h1 class="smallText">© 2024 Agência Galaxy | Todos os direitos reservados.</h1>
+        </div>
+    </footer>
+
+    <script defer src="js.js"></script>
+</body>
+</html>

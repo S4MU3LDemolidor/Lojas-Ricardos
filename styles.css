@@ -1,0 +1,831 @@
+body {
+    background-color: #ffff;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+
+a {
+    color: #212121;
+}
+
+.top {
+    background-color: #c01e27;
+    width: auto;
+    height: 900px;
+    position: relative;
+}
+
+.top::after {
+    content: "";
+    background-image: url(imgs/fotoloja.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    opacity: 0.2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.lista {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    list-style-type: none;
+    font-size: 16px;
+    gap: 40px;
+    background-color: #F9F9F9;
+    width: auto;
+    margin: 0 auto;
+}
+
+.li-1 {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.logo-loja {
+    width: 120px;
+}
+
+.navText {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 80px;
+}
+
+.navTextStyles {
+    color: #F9F9F9;
+    font-size: 60px;
+    width: 800px;
+}
+
+.navTextStyles2 {
+    color: #F9F9F9;
+    font-size: 30px;
+    font-weight: 400;
+    width: 600px;
+}
+
+.navButtonStyle {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 20px;
+    background-color: #F9F9F9;
+    color: black;
+    border-style: none;
+    border-radius: 99px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.secondTextStyles {
+    color: #212121;
+    width: 680px;
+    font-size: 48px;
+    margin: 80px;
+}
+
+.vantagens {
+    color: #FF5F08;
+}
+
+.lista2 {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    list-style-type: none;
+    margin: 40px;
+}
+
+.lista2 .li-2 {
+    display: flex;
+    align-items: flex-start;
+}
+
+.lista2 .li-2 img {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+    align-self: flex-start;
+    padding-top: 20px;
+}
+
+.lista2 .li-2 .text-content {
+    flex: 1;
+}
+
+.lista2 .li-2 h1 {
+    margin: 0;
+}
+
+.lista2 .li-2 img {
+    width: 45px;
+}
+
+.localizacaoIMG {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loc {
+    width: 1360px;
+}
+
+.buttonLocDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonLoc {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 20px;
+    background-color: #c01e27;
+    color: #F9F9F9;
+    border-style: none;
+    border-radius: 99px;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.fotoDaLoja {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.fotoDaLojaStyles {
+    width: 900px;
+}
+
+.textImage {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.thirdTextStyles {
+    color: #212121;
+    width: 680px;
+    font-size: 48px;
+    margin: 0;
+    text-align: center;
+}
+
+.fotoInsta {
+    margin-bottom: 10px;
+}
+
+.smallH1 {
+    font-size: 20px;
+}
+
+.instaText {
+    text-align: center;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.lista3 {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    padding: 0;
+    align-items: center;
+}
+
+.li-3 {
+    margin: 0;
+}
+
+.conteinerZap {
+    width: 1300px;
+    height: 520px;
+    background-color: #c01e27;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.textZap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.zapText {
+    color: #F9F9F9;
+    font-size: 50px;
+}
+
+.zapText2 {
+    color: #F9F9F9;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    width: 900px;
+}
+
+.zapButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 10px;
+    border-radius: 50px;
+    border-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #279700;
+    background-color: #F9F9F9;
+    margin-bottom: 0px;
+}
+
+.zapButton img {
+    margin-right: 10px;
+}
+
+.horario {
+    color: #F9F9F9;
+    font-size: 30px;
+}
+
+.zapText3 {
+    color: #F9F9F9;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    width: 900px;
+}
+
+.footerAll {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.listasAll {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.noDot {
+    list-style-type: none;
+    text-align: center;
+}
+
+.listaFooter1 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.boldText {
+    font-weight: bold;
+}
+
+.smallText {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.li-1 a {
+    text-decoration: none;
+}
+
+.noSubline {
+    text-decoration: none;
+}
+
+.fotoLojaShow {
+    width: 1000px;
+}
+
+.videoLoja {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 150px;
+}
+
+.video {
+    margin-top: 100px;
+}
+
+.hidden {
+    opacity: 0;
+    transition: all 1s;
+    filter: blur(5px);
+    transform: translateX(-100%);
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+@media (min-width: 360px) and (max-width: 575.98px) {
+
+    .top {
+        height: auto;
+    }
+
+    .logo-loja {
+        width: 150px;
+    }
+
+    .top::after {
+        background-size: cover;
+    }
+
+    .fotoDaLoja {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lista {
+        gap: 0px;
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .navText {
+        margin: 40px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .navTextStyles {
+        font-size: 40px;
+        width: 100%;
+    }
+
+    .navTextStyles2 {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .navButtonStyle {
+        font-size: 16px;
+        padding: 15px 30px;
+    }
+
+    .secondTextStyles {
+        font-size: 32px;
+        width: 100%;
+        margin: 15px;
+    }
+
+    .lista2 {
+        flex-direction: column;
+        gap: 40px;
+        margin: 20px;
+    }
+
+    .li-2 img {
+        width: 80px;
+    }
+
+    .li-2 .text-content {
+        width: 100%;
+    }
+
+    .localizacaoIMG {
+        justify-content: center;
+    }
+
+    .loc {
+        width: 100%;
+    }
+
+    .buttonLocDiv {
+        margin-top: 20px;
+    }
+
+    .fotoDaLojaStyles {
+        width: 100%;
+    }
+
+    .container {
+        margin-top: 20px;
+    }
+
+    .thirdTextStyles {
+        font-size: 32px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .fotoInstaComputador {
+        width: 300px;
+    }
+
+    .socialIcons {
+        margin-top: 20px;
+    }
+
+    .video {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .conteinerZap {
+        width: 360px;
+    }
+
+    .zapButton {
+        font-size: 16px;
+        padding: 5px 10px;
+    }
+
+    .zapText {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .horario {
+        font-size: 16px;
+    }
+
+    .zapText2,
+    .zapText3 {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .footerAll {
+        flex-direction: column;
+    }
+
+    .listaFooter1 {
+        gap: 15px;
+    }
+
+    .noDot {
+        padding: 0;
+        text-align: center;
+        width: auto;
+    }
+
+    .listasAll {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .smallText {
+        font-size: 16px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .top {
+        height: auto;
+    }
+
+    .logo-loja {
+        width: 160px;
+    }
+
+    .top::after {
+        background-size: cover;
+    }
+
+    .fotoDaLoja {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .li-1 {
+        font-size: 20px;
+    }
+
+    .lista {
+        gap: 0px;
+        font-size: 10px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .navText {
+        margin: 40px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .navTextStyles {
+        font-size: 40px;
+        width: 100%;
+    }
+
+    .navTextStyles2 {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .navButtonStyle {
+        font-size: 16px;
+        padding: 15px 30px;
+    }
+
+    .secondTextStyles {
+        font-size: 32px;
+        width: 100%;
+        margin: 15px;
+    }
+
+    .lista2 {
+        flex-direction: column;
+        gap: 40px;
+        margin: 20px;
+    }
+
+    .li-2 img {
+        width: 80px;
+    }
+
+    .li-2 .text-content {
+        width: 100%;
+    }
+
+    .localizacaoIMG {
+        justify-content: center;
+    }
+
+    .loc {
+        width: 100%;
+    }
+
+    .buttonLocDiv {
+        margin-top: 20px;
+    }
+
+    .fotoDaLojaStyles {
+        width: 100%;
+    }
+
+    .container {
+        margin-top: 20px;
+    }
+
+    .thirdTextStyles {
+        font-size: 32px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .fotoInstaComputador {
+        width: 700px;
+    }
+
+    .socialIcons {
+        margin-top: 20px;
+    }
+
+    .conteinerZap {
+        width: 700px;
+    }
+
+    .zapButton {
+        font-size: 16px;
+        padding: 5px 10px;
+    }
+
+    .zapText {
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .horario {
+        font-size: 16px;
+    }
+
+    .zapText2,
+    .zapText3 {
+        font-size: 22px;
+        width: 100%;
+    }
+
+    .footerAll {
+        flex-direction: column;
+    }
+
+    .listaFooter1 {
+        gap: 15px;
+    }
+
+    .noDot {
+        padding: 0;
+        text-align: center;
+        width: auto;
+    }
+
+    .listasAll {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .smallText {
+        font-size: 16px;
+    }
+
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    
+    .top {
+        height: auto;
+    }
+
+    .logo-loja {
+        width: 160px;
+    }
+
+    .top::after {
+        background-size: cover;
+    }
+
+    .fotoDaLoja {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .li-1 {
+        font-size: 20px;
+    }
+
+    .lista {
+        gap: 0px;
+        font-size: 10px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .navText {
+        margin: 40px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .navTextStyles {
+        font-size: 40px;
+        width: 100%;
+    }
+
+    .navTextStyles2 {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .navButtonStyle {
+        font-size: 16px;
+        padding: 15px 30px;
+    }
+
+    .secondTextStyles {
+        font-size: 32px;
+        width: 100%;
+        margin: 15px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .lista2 {
+        flex-direction: column;
+        gap: 40px;
+        margin: 20px;
+    }
+
+    .li-2 img {
+        width: 80px;
+    }
+
+    .li-2 .text-content {
+        width: 100%;
+    }
+
+    .localizacaoIMG {
+        justify-content: center;
+    }
+
+    .loc {
+        width: 100%;
+    }
+
+    .buttonLocDiv {
+        margin-top: 20px;
+    }
+
+    .fotoDaLojaStyles {
+        width: 100%;
+    }
+
+    .container {
+        margin-top: 20px;
+    }
+
+    .thirdTextStyles {
+        font-size: 32px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .fotoInstaComputador {
+        width: 900px;
+    }
+
+    .socialIcons {
+        margin-top: 20px;
+    }
+
+    .conteinerZap {
+        width: 1200px;
+    }
+
+    .zapButton {
+        font-size: 16px;
+        padding: 5px 10px;
+    }
+
+    .zapText {
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .horario {
+        font-size: 16px;
+    }
+
+    .zapText2,
+    .zapText3 {
+        font-size: 26px;
+        width: 100%;
+    }
+
+    .footerAll {
+        flex-direction: column;
+    }
+
+    .listaFooter1 {
+        gap: 15px;
+    }
+
+    .noDot {
+        padding: 0;
+        text-align: center;
+        width: auto;
+    }
+
+    .listasAll {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .smallText {
+        font-size: 16px;
+    }
+}
